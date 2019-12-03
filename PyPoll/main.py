@@ -40,5 +40,5 @@ election_results=("\nElection Results\n" + dashes + "\nTotal Votes:" + str(total
         "\n" + vote_summary + dashes + "\nWinner: " + winner[0]+ "\n" + dashes)
     
 print(election_results)
-output_file .writelines(election_results)
-output_file .close()
+output_file.writelines(election_results)
+output_file.close()
